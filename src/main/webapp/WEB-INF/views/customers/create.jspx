@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_project_domain_Customer" modelAttribute="customer" path="/customers" render="${empty dependencies}" z="fp8WpwIUUyLQwj34jcHtxkg4AKU=">
+        <field:input field="Customers_ID" id="c_project_domain_Customer_Customers_ID" required="true" z="wAJt1mIxQptmW9XfHqiypi6HHS4="/>
+        <field:input field="Customers_Name" id="c_project_domain_Customer_Customers_Name" z="EsAytsrgpgWn19a4px4gmMlaeao="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_project_domain_Customer" render="${not empty dependencies}" z="gpq7IAqWTKT0Ajbn0CYnX3yH8xI="/>
+</div>
